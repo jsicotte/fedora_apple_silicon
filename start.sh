@@ -5,7 +5,7 @@
     -cpu cortex-a72 \
     -smp 4 \
     -M virt \
-    -bios edk2-aarch64-code.fd \
+    -bios edk2-aarch64-code.fd -serial stdio \
     -device virtio-gpu-pci \
     -display default,show-cursor=on \
     -device nec-usb-xhci \
